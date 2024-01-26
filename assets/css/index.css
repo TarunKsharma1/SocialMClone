@@ -4,21 +4,8 @@
   font-family: "poppins", sans-serif;
 }
 
-:root {
-  --body-color: #efefef;
-  --nav-color: #1876f2;
-  --bg-color: #fff;
-}
-
-.dark-theme {
-  --body-color: #0a0a0a;
-  --nav-color: #000;
-  --bg-color: #000;
-}
-
 body {
-  background-color: var(--body-color);
-  transition: background-color 0.3s;
-}
+  background-color: #efefef;
+} 
 
 /*# sourceMappingURL=index.css.map */
