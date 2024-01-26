@@ -280,7 +280,7 @@ nav .setting-menu .setting-menu__inner .setting-links a {
   flex-basis: 18%;
   padding-top: 32%;
   position: relative;
-  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(/images/status-1.png);
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-1.png);
   background-position: center;
   background-size: cover;
   border-radius: 4px;
@@ -326,16 +326,16 @@ nav .setting-menu .setting-menu__inner .setting-links a {
   }
 }
 .container .main-content .main-content__story-gallery .story2 {
-  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(/images/status-2.png);
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-2.png);
 }
 .container .main-content .main-content__story-gallery .story3 {
-  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(/images/status-3.png);
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-3.png);
 }
 .container .main-content .main-content__story-gallery .story4 {
-  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(/images/status-4.png);
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-4.png);
 }
 .container .main-content .main-content__story-gallery .story5 {
-  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(/images/status-5.png);
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-5.png);
 }
 .container .main-content .main-content__write-post-container {
   background: var(--bg-color);
