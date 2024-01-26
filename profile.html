@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Profile</title>
+    <script src="https://kit.fontawesome.com/7f8507b051.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="/index.html"><img class="nav-left__logo" src="./images/logo.png" alt="logo" loading="lazy"></a>
+            <ul class="nav-left__ul">
+                <li><img src="./images/notification.png" /> </li>
+                <li><img src="./images/inbox.png" /> </li>
+                <li><img src="./images/video.png" /> </li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="nav-right__search-box">
+                <img src="./images/search.png" />
+                <input type="text" placeholder="Search..">
+            </div>
+            <div class="nav-right__user-icon" onclick="settingsMenuToggle()">
+                <img src="./images/profile-pic.png" />
+            </div>
+        </div>
+        
+        <div class="setting-menu">
+            <div id="dark-btn">
+                <span onclick="darkModeToggle()"></span>
+            </div>
+            <div class="setting-menu__inner">
+                <div class="user-profile">
+                    <img src="/images/profile-pic.png" alt="">
+                    <div>
+                        <p>Benjin Stark</p>
+                        <a href="">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="/images/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="">Help us to improve</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="images/setting.png" alt="" class="setting-icon">
+                    <a href="">Setting and privacy <img src="images/arrow.png" width="10px" /></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" alt="" class="setting-icon">
+                    <a href="">Help & Support <img src="images/arrow.png" width="10px" /></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" alt="" class="setting-icon">
+                    <a href="">Display & Accessbility <img src="images/arrow.png" width="10px" /></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" alt="" class="setting-icon">
+                    <a href="">Logout <img src="images/arrow.png" width="10px" /></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    
+    <div class="profile-container">
+        <img src="images/cover.png" class="cover-img">
+        
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile.png" alt="">
+                    <div class="user-info">
+                        <h3>Benjin Stark</h3>
+                        <p>400 Friends - 50 mutual</p>
+                        <img src="images/member-1.png" alt="">
+                        <img src="images/member-2.png" alt="">
+                        <img src="images/member-3.png" alt="">
+                        <img src="images/member-4.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+                <button><img src="images/add-friends.png" alt="">Add Friend</button>
+                <button><img src="images/message.png" alt="">Message</button>
+                
+                <br>
+                <a href=""><img src="images/more.png" alt=""></a>
+            </div>
+            
+        </div>
+        
+        
+        <div class="profile-info">
+            <div class="info-col">
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p>Believe in yourself to surpass Unbelieveable things <img src="images/feeling.png" alt=""></p>
+                    <hr>
+                    <ul>
+                        <li><img src="images/profile-job.png" alt="">Participated in Hackathon</li>
+                        <li><img src="images/profile-study.png" alt="">Studied at Amity University</li>
+                        <li><img src="images/profile-study.png" alt="">Went to DPS Delhi</li>
+                        <li><img src="images/profile-location.png" alt="">Lives in Banglore, India</li>
+                        <li><img src="images/profile-home.png" alt="">From Delhi, India</li>
+                    </ul>
+                </div>
+                <div class="profile-intro">
+                    <div class="profile-intro-group">
+                        <h3>Photos</h3>
+                        <a href="">All Photos</a>
+                    </div>
+                    <div class="photo-box">
+                        <img src="images/photo1.png" alt="">
+                        <img src="images/photo2.png" alt="">
+                        <img src="images/photo3.png" alt="">
+                        <img src="images/photo4.png" alt="">
+                        <img src="images/photo5.png" alt="">
+                        <img src="images/photo6.png" alt="">
+                    </div>
+                    
+                </div>
+                <div class="profile-intro">
+                    <div class="profile-intro-group">
+                        <h3>Friens</h3>
+                        <a href="">All Friends</a>
+                    </div>
+                    <p>400 (50 mututal)</p>
+                    <div class="friends-box">
+                        <div><img src="images/member-1.png" alt=""><p>Ygritte</p></div>
+                        <div><img src="images/member-2.png" alt=""><p>Jorah</p></div>
+                        <div><img src="images/member-3.png" alt=""><p>Arya</p></div>
+                        <div><img src="images/member-4.png" alt=""><p>Robb</p></div>
+                        <div><img src="images/member-5.png" alt=""><p>Theon</p></div>
+                        <div><img src="images/member-6.png" alt=""><p>Shae</p></div>
+                        <div><img src="images/member-7.png" alt=""><p>Brandon</p></div>
+                        <div><img src="images/member-8.png" alt=""><p>Cersei</p></div>
+                        <div><img src="images/member-9.png" alt=""><p>Jaime</p></div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="post-col">
+                <div class="main-content__write-post-container">
+                    <div class="user-profile">
+                        <img src="/images/profile-pic.png" alt="">
+                        <div>
+                            <p>Benjin Stark</p>
+                            <small>public <i class="fas fa-caret-down"></i></small>
+                        </div>
+                    </div>
+                    
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind Benjin?"></textarea>
+                        
+                        <div class="add-post-links">
+                            <a href=""><img src="images/live-video.png" alt=""> Live Video</a>
+                            <a href=""><img src="/images/photo.png" alt=""> Photo/Video</a>
+                            <a href=""><img src="/images/feeling.png" alt=""> Feeling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="/images/profile-pic.png" alt="">
+                            <div>
+                                <p>Benjin Stark</p>
+                                <span>24 June 2023, 13:40</span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fas fa-ellipsis-v"></i></a>    
+                    </div>
+                    
+                    <p class="post-text">Let's create an interesting Design
+                        <a href="">#webDesign</a>
+                        <a href="">#frontend</a>
+                    </p>
+                    <img src="images/feed-image-1.png" alt="">
+                    
+                    <div class="post-container__post-row">
+                        <div class="post-container__post-row__activity-icons">
+                            <div class=""><img src="images/like-blue.png" alt=""> 120</div>
+                            <div class=""><img src="images/comments.png" alt=""> 50</div>
+                            <div class=""><img src="images/share.png" alt=""> 35</div>
+                        </div>
+                        <div class="post-container__post-row__profile-icon">
+                            <img src="images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="/images/profile-pic.png" alt="">
+                            <div>
+                                <p>Benjin Stark</p>
+                                <span>20 Aug 2023, 09:40</span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fas fa-ellipsis-v"></i></a>    
+                    </div>
+                    
+                    <p class="post-text">Chilling vibes at beach with bonfire and friends
+                    </p>
+                    <img src="images/feed-image-2.png" alt="">
+                    
+                    <div class="post-container__post-row">
+                        <div class="post-container__post-row__activity-icons">
+                            <div class=""><img src="images/like-blue.png" alt=""> 400</div>
+                            <div class=""><img src="images/comments.png" alt=""> 100</div>
+                            <div class=""><img src="images/share.png" alt="">125</div>
+                        </div>
+                        <div class="post-container__post-row__profile-icon">
+                            <img src="images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="/images/profile-pic.png" alt="">
+                            <div>
+                                <p>Benjin Stark</p>
+                                <span>19 Sep 2023, 19:40</span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fas fa-ellipsis-v"></i></a>    
+                    </div>
+                    
+                    <p class="post-text">Roaming and gossiping
+                    </p>
+                    <img src="images/feed-image-3.png" alt="">
+                    
+                    <div class="post-container__post-row">
+                        <div class="post-container__post-row__activity-icons">
+                            <div class=""><img src="images/like-blue.png" alt=""> 300</div>
+                            <div class=""><img src="images/comments.png" alt="">100</div>
+                            <div class=""><img src="images/share.png" alt="">80</div>
+                        </div>
+                        <div class="post-container__post-row__profile-icon">
+                            <img src="images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="/images/profile-pic.png" alt="">
+                            <div>
+                                <p>Benjin Stark</p>
+                                <span>25 Sep 2023, 07:10</span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fas fa-ellipsis-v"></i></a>    
+                    </div>
+                    
+                    <p class="post-text">
+                    </p>
+                    <img src="images/feed-image-4.png" alt="">
+                    
+                    <div class="post-container__post-row">
+                        <div class="post-container__post-row__activity-icons">
+                            <div class=""><img src="images/like-blue.png" alt=""> 230</div>
+                            <div class=""><img src="images/comments.png" alt=""> 70</div>
+                            <div class=""><img src="images/share.png" alt="">55</div>
+                        </div>
+                        <div class="post-container__post-row__profile-icon">
+                            <img src="images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="/images/profile-pic.png" alt="">
+                            <div>
+                                <p>Benjin Stark</p>
+                                <span>19 aug 2023, 09:40</span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fas fa-ellipsis-v"></i></a>    
+                    </div>
+                    
+                    <p class="post-text">Innovation in progress..
+                    </p>
+                    <img src="images/feed-image-5.png" alt="">
+                    
+                    <div class="post-container__post-row">
+                        <div class="post-container__post-row__activity-icons">
+                            <div class=""><img src="images/like-blue.png" alt=""> 150</div>
+                            <div class=""><img src="images/comments.png" alt=""> 60</div>
+                            <div class=""><img src="images/share.png" alt="">45</div>
+                        </div>
+                        <div class="post-container__post-row__profile-icon">
+                            <img src="images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="footer">
+        &copy;
+        <p>Copyright 2023 reserved</p>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+
+</html>
